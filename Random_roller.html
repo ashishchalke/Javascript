@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button styling */
+#btn {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+
+    cursor: alias;
+}
+
+#btn:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+/* Heading styling */
+h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #222;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Different colors for each roll result */
+#Roll1 {
+    color: #ff4757;
+}
+#Roll2 {
+    color: #1e90ff;
+}
+#Roll3 {
+    color: #2ed573;
+}
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="btn">Roll</button>
+    <h1 id="Roll1"></h1>
+    <h1 id="Roll2"></h1>
+    <h1 id="Roll3"></h1>
+</body>
+<script src="Random_roller.js"></script>
+</html>

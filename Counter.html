@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px;
+    }
+
+    #values {
+        font-size: 80px;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    button {
+        padding: 12px 20px;
+        margin: 5px;
+        font-size: 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    #Increase {
+        background-color: #28a745;
+        color: white;
+    }
+
+    #Increase:hover {
+        background-color: #218838;
+    }
+
+    #Decrease {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    #Decrease:hover {
+        background-color: #c82333;
+    }
+
+    #Reset {
+        background-color: #ffc107;
+        color: black;
+    }
+
+    #Reset:hover {
+        background-color: #e0a800;
+    }
+</style>
+
+</head>
+<body>
+   <h1 id="values">0</h1> 
+   <button id="Increase">Increase</button>
+   <button id="Decrease">Decrease</button>
+   <button id="Reset">Reset</button>
+
+   <script src="Counter.js"></script>
+</body>
+</html>
